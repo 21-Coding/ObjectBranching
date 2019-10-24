@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>PetWeb</title>
+  </head>
+  <body>
+    <h1>Pets!</h1>
+
+    <div class="jumbotron">
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/lionbaby.gif" alt="baby lion" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+
+            <a href="https://en.wikipedia.org/wiki/Lion">click here for Lion info</a>
+            <h2>Mufasa The Lion</h2>
+            <p>Lorem <em>ipsum dolor sit amet</em>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <strong>magna aliqua. Ut enim ad</strong> minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/panther.gif" alt="A black panther" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+
+            <a href="https://en.wikipedia.org/wiki/Panther">click here for Panther info</a>
+            <h2>The Black Panther</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/rabbit.gif" alt="" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <a href="https://en.wikipedia.org/wiki/Rabbit">click here for Rabbit info</a>
+            <h2>Mr. Rabbit</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/cheetah.gif" alt="" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <a href="https://en.wikipedia.org/wiki/Cheetah">click here for cheetah info</a>
+            <h2>Mr. Quick Feet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <center>
+      <div class="well">
+        <form id="pets" action="index.html" method="post">
+          <label for="admissions">Admissions</label>
+          <select id="admissions" name="ticketChoice">
+            <option value="2">Family Plan</option>
+            <option value="4">Youth</option>
+            <option value="6">Teen</option>
+            <option value="8">Senior Citizen</option>
+          </select>
+
+          <label for="animal">Animal</label>
+          <select id="animal" name="animalChoice">
+            <option value="2">Lion</option>
+            <option value="4">Panther</option>
+            <option value="6">Rabbit</option>
+            <option value="8">Cheetah</option>
+          </select>
+
+          <label for="food">Food Choice</label>
+          <select id="food" name="foodChoice">
+            <option value="2">Raw Meat</option>
+            <option value="4">Rodents</option>
+            <option value="6">Carrots</option>
+            <option value="8">Fruit</option>
+          </select>
+
+
+          <button type="submit" class="btn btn-danger" name="button">Lets Go!</button>
+        </form>
+      </div>
+    </center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="mufasa result-card">
+      <img src="img/lionbaby.gif" alt="a young lion">
+    </div>
+
+    <div class="panther result-card">
+      <img src="img/panther.gif" alt="a black panther">
+    </div>
+
+    <div class="rabbit result-card">
+      <img src="img/rabbit.gif" alt="a white rabbit">
+    </div>
+
+    <div class="cheetah result-card">
+      <img src="img/cheetah.gif" alt="a quick golden cat">
+    </div>
+
+
+  </body>
+</html>
+
+<!--
+
+Craft a site with information about turtles, snakes, and insects (or another three animals or items of your choosing).
+
+The page should ask the user which animal they'd like to learn about.
+When a user clicks an animal, display a div containing information about that animal (including pictures!).
+If they later select a different animal, make sure to hide this div before displaying information about another animal.
+
+ -->
